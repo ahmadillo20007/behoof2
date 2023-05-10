@@ -1,0 +1,19 @@
+.about__item{
+    width: 1440px;
+height: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #0F1113;
+}
+.about__wrapper{
+    display: flex;
+    justify-content: space-between;
+  h1{
+    color: #FF4D4D;
+  }
+}
