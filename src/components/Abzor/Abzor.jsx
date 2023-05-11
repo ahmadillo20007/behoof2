@@ -10,32 +10,40 @@ function Abzor() {
           </h1>
             <ul className='abzor__list'>
                 <li className='abzor__item'>
-<h1>
+<h1 className='abzor__text'>
   Обзор устаревших смартфонов
 </h1>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
-<span>Смотреть</span>
+<p className='abzor__item'>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
+</p>
+<span className='btn__item'>Смотреть</span>
                 </li>
                 <li className='abzor__item'>
-<h1>
+<h1 className='abzor__text'>
   Обзор устаревших смартфонов
 </h1>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
-<span>Смотреть</span>
+<p className='abzor__item'>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
+</p>
+<span className='btn__item'>Смотреть</span>
                 </li>
                 <li className='abzor__item'>
-<h1>
+<h1 className='abzor__text'>
   Обзор устаревших смартфонов
 </h1>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
-<span>Смотреть</span>
+<p className='abzor__item'>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
+</p>
+<span className='btn__item'>Смотреть</span>
                 </li>
                 <li className='abzor__item'>
-<h1>
+<h1 className='abzor__text'>
   Обзор устаревших смартфонов
 </h1>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
-<span>Смотреть</span>
+<p className='abzor__item'>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at tempore enim dolore sed accusantium excepturi sit ipsum odio rerum, et corporis quod obcaecati illum!
+</p>
+<span className='btn__item'>Смотреть</span>
                 </li>
             </ul>
         </div>
