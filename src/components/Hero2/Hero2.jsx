@@ -9,10 +9,14 @@ import img7 from '../../img/img7.png'
 import img8 from '../../img/img8.png'
 
 import './Hero2.scss'
+import SliderItem from './Slider/SliderItem/SliderItem'
 
 function Hero2() {
     return (
         <div className='hero2'>
+            <div className="hero2__inner">
+
+            </div>
             <div className="container">
                 <div className="hero2__wrapper">
                     <h1 className='hero2__text'>
@@ -95,11 +99,10 @@ function Hero2() {
                         <button className='about__btn'>Батарея</button>
 
                     </div>
-                    <ul className="swipper">
-                        <li className='swipper__item'>
 
-                        </li>
-                    </ul>
+
+
+<SliderItem/>
                 </div>
             </div>
         </div>

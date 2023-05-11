@@ -1,0 +1,46 @@
+.socialWrapper{
+    display: flex;
+   margin-top: 80px;
+    align-items: flex-start;
+    padding: 80px;
+   
+    width: 1440px;
+
+    background-color: #F6F7FA;
+    border-radius: 16px;
+}
+.social__text{
+    width: 819px;
+height: 192px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+
+
+}
+.social__btn{
+    
+    border: none;
+    width: 182.49px;
+height: 61px;
+background: #0F1113;
+border-radius: 10px;
+
+
+}
+.buttons{
+    display: flex;
+   margin-top: 20px;
+    width: 450px;
+    justify-content: space-between;
+    .btn__img{
+        object-fit: cover;
+        width: 204.85px;
+        height: 61px;
+        background: #0F1113;
+        border-radius: 10px;
+    
+    }
+}
