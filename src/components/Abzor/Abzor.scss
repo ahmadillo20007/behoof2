@@ -1,18 +1,58 @@
+.abzor{
+    margin-top: 80px;
+}
 .abzor__list{
 display: flex;
 margin-left: -40px;
 justify-content: space-between;
 background-repeat: no-repeat;
-    .abzor__item{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 342px;
-        height: 500px;
-        background: #F6F7FA;
-        border: 1px solid #F6F7FA;
-        border-radius: 12px;
-        background: url(../../img/bg.png);
-        background-repeat: no-repeat;
-    }
+
 }
+.abzor__text{
+    width: 310px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #263141;
+margin-left: 16px;
+}
+.abzor__item{
+   
+    width: 310px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #7E8794;
+margin-left: 16px;
+
+}
+.abzor__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 342px;
+    height: 500px;
+    background: #F6F7FA;
+    border: 1px solid #F6F7FA;
+    border-radius: 12px;
+
+    background-repeat: no-repeat;
+}
+.btn__item{
+    width: 79px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FF4D4D;
+padding-left: 16px;
+}   

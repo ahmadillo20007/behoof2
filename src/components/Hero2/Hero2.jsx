@@ -14,9 +14,7 @@ import SliderItem from './Slider/SliderItem/SliderItem'
 function Hero2() {
     return (
         <div className='hero2'>
-            <div className="hero2__inner">
-
-            </div>
+           
             <div className="container">
                 <div className="hero2__wrapper">
                     <h1 className='hero2__text'>
@@ -105,6 +103,9 @@ function Hero2() {
 <SliderItem/>
                 </div>
             </div>
+            <div className="hero2__inner">
+
+</div>
         </div>
     )
 }
