@@ -28,7 +28,10 @@ export default function MySwiper  () {
         modules={[Grid, Pagination]}
         className="MySwiper"
       >
-   <SliderItem/>
+  <div className="ten">
+  <SliderItem/> <SliderItem/>
+   <SliderItem/> <SliderItem/>
+  </div>
 
       </Swiper>
     </>
