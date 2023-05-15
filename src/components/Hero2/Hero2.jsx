@@ -9,6 +9,9 @@ import img7 from '../../img/img7.png'
 import img8 from '../../img/img8.png'
 
 import './Hero2.scss'
+import MySlider from './Slider/mySwiper'
+import MySwiper from './Slider/mySwiper'
+import Slider from './Slider/mySwiper'
 import SliderItem from './Slider/SliderItem/SliderItem'
 
 function Hero2() {
@@ -100,8 +103,8 @@ function Hero2() {
 
 
 
-<SliderItem/>
-                </div>
+<MySwiper/>
+   </div>
             </div>
             <div className="hero2__inner">
 
