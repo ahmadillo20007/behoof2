@@ -5,3 +5,8 @@
 body{
   font-family: 'Inter', sans-serif;
 }
+.ten{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
