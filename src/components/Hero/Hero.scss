@@ -1,3 +1,6 @@
+.hero{
+    background-color: #fdfdfd;
+}
 span {
     color: #FF4D4D;
 }
@@ -84,4 +87,25 @@ span {
     width: 147px;
     height: 52px;
 
+}
+@media (max-width:'375px'){
+        .left{
+            margin-top: 120px;
+            display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px;
+width: 290px;
+margin-left: 15px;
+height: 172px;
+background: #F2F5F9;
+border-radius: 8px;
+        }
+        .hero__text{
+            width: 260px;
+            font-size: 20px;
+            margin-left: -40px;
+            margin-top: -10px;
+        line-height: 35px;
+        }
 }

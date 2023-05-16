@@ -13,12 +13,13 @@ function Home() {
   return (
     <div>
       <Header />
-      <Hero />
-      <Hero2 />
-      <About />
-      <New />
+       <Hero />
+      {/* <Hero2 />
+      <About /> */}
+      {/* <Social/> */}
+      {/* <New />
      <Abzor/>
-     <Footer/>
+     <Footer/> */}
     </div>
   )
 }
