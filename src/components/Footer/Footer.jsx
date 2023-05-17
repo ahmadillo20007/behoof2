@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../img/logo.png'
+import {data2} from "../../data/data"
 import './Footer.scss'
 function Footer() {
     return (
@@ -73,6 +74,13 @@ function Footer() {
                         <p>
                         Работа у нас
                         </p>
+                       {
+                        data2.map((item)=>(
+                            <div>
+                                {/* <img src={item.img} alt="" /> */}
+                            </div>
+                        ))
+                       }
                     </div>
                 </div>
             </div>

@@ -1,7 +1,12 @@
+
+.header{
+    background: #FDFDFD;
+}
 .navbar {
+    justify-content: space-between;
     display: flex;
     align-items: center;
-    
+        
 }
 @media (max-width:'375px') {
 .navbar{
@@ -72,7 +77,9 @@ align-items: center;
     height: 50px;
     border: none;
     background: #F2F5F9;
-    width: 641px;
+    width: 760px;
+  
+
 }
 @media  (max-width:'375px'){
     .header__inp{
@@ -82,7 +89,7 @@ align-items: center;
 padding: 14px 20px;
 
 
-width: 275px;
+width: 305px;
 height: 32px;
 
 /* Grayscale/200 */
@@ -110,7 +117,8 @@ flex-grow: 1;
    border-radius: 5px;
    border: none;
     background: #F2F5F9;
-    margin-left: 20px;
+    margin-top: -10px;
+margin-left: 20px;
 }
 
 .header__btn2 {
@@ -119,16 +127,17 @@ flex-grow: 1;
    border-radius: 5px;
    border: none;
     background: #F2F5F9;
-    margin-left: 20px;
+    margin-top: -10px;
 }
 
 .header__btn3 {
+    margin-top: -10px;
+    
     width: 52px;
     height: 52px;
    border-radius: 5px;
    border: none;
     background: #F2F5F9;
-    margin-left: 20px;
   
 }
 
@@ -147,8 +156,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 23.0795px;
 line-height: 28px;
-
-
 color: #111111;
     }
 }
@@ -172,7 +179,7 @@ font-size: 12px;
 line-height: 16px;
 /* or 133% */
 margin-left: 120px;
-margin-top:  30px;
+margin-top:  10px;
 
 font-feature-settings: 'salt' on, 'liga' off;
 

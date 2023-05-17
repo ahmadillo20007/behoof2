@@ -1,6 +1,9 @@
-.hero{
-    background-color: #fdfdfd;
+.hero {
+
+    background: #FDFDFD;
+
 }
+
 span {
     color: #FF4D4D;
 }
@@ -36,7 +39,8 @@ span {
 .hero__inner {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 53px;
 
 }
 
@@ -88,24 +92,72 @@ span {
     height: 52px;
 
 }
-@media (max-width:'375px'){
-        .left{
-            margin-top: 120px;
-            display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 12px;
-width: 290px;
-margin-left: 15px;
-height: 172px;
-background: #F2F5F9;
-border-radius: 8px;
+
+@media (max-width:'375px') {
+    .hero{
+        overflow: hidden;
+
+    }
+    .hero__inner {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+    }
+
+    .left {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px;
+        width: 320px;
+        margin-left: 15px;
+        height: 172px;
+        background: #F2F5F9;
+        border-radius: 8px;
+        .left__btn{
+            margin-left: -2px
         }
-        .hero__text{
-            width: 260px;
-            font-size: 20px;
-            margin-left: -40px;
-            margin-top: -10px;
+    }
+
+    .hero__text {
+        width: 260px;
+        font-size: 20px;
+        margin-left: -40px;
+        margin-top: -10px;
         line-height: 35px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px;
+        width: 320px;
+        margin-left: 15px;
+        height: 172px;
+        background: #F2F5F9;
+        border-radius: 8px;
+        margin-top: 12px;
+        .right__text{
+            width: 269px;
+            margin-top: -25px;
+height: 56px;
+margin-left: -40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 35px;
         }
+        .left__btn{
+            margin-left: -2px;
+            margin-top:30px;
+            width: 147px;
+height: 62px;
+
+        }
+    }
+
 }

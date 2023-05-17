@@ -14,10 +14,10 @@ function Home() {
     <div>
       <Header />
        <Hero />
-      {/* <Hero2 />
-      <About /> */}
-      {/* <Social/> */}
-      {/* <New />
+      <Hero2 />
+      {/* <About />
+      <Social/>
+      <New />
      <Abzor/>
      <Footer/> */}
     </div>

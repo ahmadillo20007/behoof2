@@ -3,6 +3,9 @@ height: 1467px;
 margin-top: 53px;
 position: relative;
 
+@media (min-width:0px) and (max-width:428px) {
+    display: none;
+}
 
 }
 .hero2__inner{
@@ -259,4 +262,39 @@ line-height: 18px;
 margin: 0;
 font-feature-settings: 'salt' on, 'liga' off;
 color: #7E8794;
+}
+
+.here_res{
+    display: none;
+    @media (min-width:0) and (max-width:428px) {
+        display: block;
+        .hero2__item{
+          
+        }
+        .hero2__text__item{
+            width: 102px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+text-align: center;
+
+/* Grayscale/800 */
+
+color: #263141;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+        }
+    }
 }
