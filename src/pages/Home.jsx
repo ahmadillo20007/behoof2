@@ -15,8 +15,8 @@ function Home() {
       <Header />
        <Hero />
       <Hero2 />
-      {/* <About />
-      <Social/>
+      <About />
+      {/* <Social/>
       <New />
      <Abzor/>
      <Footer/> */}

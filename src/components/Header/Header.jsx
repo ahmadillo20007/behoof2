@@ -21,7 +21,7 @@ function Header() {
              <div className="buttons">
              <button className='header__btn1'> <i class="bi bi-suit-heart"></i></button>
                 <button className='header__btn2'> <i class="bi bi-bar-chart"></i></button>
-                <button className='header__btn3'> <i class="bi bi-person"></i></button>
+                <button className='header__btn3'> <i class="bi bi-person"></i></button> 
              </div>
             </div>
         </div>

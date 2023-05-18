@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import iphone from '../../../../img/img1.png'
+import './SliderItem.scss'
 import { SliderItemMain, SliderItemTop, SliderItemWrapper, SliderProgress, SliderProgressWrapper } from './Stayled'
 
 function SliderItem() {
@@ -12,9 +13,10 @@ function SliderItem() {
   const [Partability, setPartability] = useState(4)
   return (
     <>
-      <SliderItemWrapper>
+   <div>
+   <SliderItemWrapper>
         <SliderItemTop>
-          <div>
+          <div className='SliderItem1'>
             <p>
               Портативные колонки
             </p>
@@ -115,7 +117,9 @@ function SliderItem() {
             </SliderProgress>
           </SliderProgressWrapper>
         </SliderItemMain>
-      </SliderItemWrapper></>
+      </SliderItemWrapper>
+   </div>
+   </>
   )
 }
 

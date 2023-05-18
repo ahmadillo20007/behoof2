@@ -17,6 +17,7 @@ import MySlider from './Slider/mySwiper'
 import MySwiper from './Slider/mySwiper'
 import Slider from './Slider/mySwiper'
 import SliderItem from './Slider/SliderItem/SliderItem'
+import SliderItem1 from '../Responsive/SliderItem1/SliderItem1'
 
 function Hero2() {
     return (
@@ -96,7 +97,8 @@ function Hero2() {
 
                         </ul>
                         <div className="button__inner">
-                            <button className='about__btn'>Дизайн</button>
+                        <button className='about__btn'>Дизайн</button>
+                            
                             <button className='about__btn'>Портативность</button>
                             <button className='about__btn'>Камера</button>
                             <button className='about__btn'>Ответ</button>
@@ -115,7 +117,7 @@ function Hero2() {
                 </div>
             </div>
             <div className="here_res">
-                <h1>Лучший выбор</h1>
+                <h1 className='res__text'>Лучший выбор</h1>
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -124,101 +126,134 @@ function Hero2() {
                     }}
 
                 >
-                    <SwiperSlide>          <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li></SwiperSlide>
-                    <SwiperSlide>          <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li>  </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    <SwiperSlide>           <li className='hero2__div'>
-                        <center>
-                            <img className='img1' src={img1} alt="" />
-                        </center>
-                        <p className='hero2__text__item'>
-                            Смартфоны
-                        </p>
-                    </li> </SwiperSlide>
-                    </Swiper>
-                    <div className="button__inner">
-                    <Swiper>
-                        <SwiperSlide>
-                            <button className='about__btn'>Дизайн</button>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <button className='about__btn'>Портативность</button>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <button className='about__btn'>Камера</button>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <button className='about__btn'>Ответ</button>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <button className='about__btn'>Батарея</button>
-                        </SwiperSlide>
-
-                        </Swiper>
+                    <div className="res__items">
+                        <SwiperSlide >          <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li></SwiperSlide>
+                        <SwiperSlide>          <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li>  </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
+                        <SwiperSlide>           <li className='hero2__div1'>
+                            <center>
+                                <img className='img1' src={img1} alt="" />
+                            </center>
+                            <p className='hero2__text__item1'>
+                                Смартфоны
+                            </p>
+                        </li> </SwiperSlide>
                     </div>
+                </Swiper>
+                {/* <div className="button__inner">
+                    <Swiper className="MYSwiper">
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                        <button className='about__btn'>Портативность</button>
 
-    
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button className='about__btn1'>Дизайн</button>
+
+                        </SwiperSlide>
+                    </Swiper>
+                </div> */}
+
+<div className="hero2__swiper1">
+      <Swiper className="mySwiper">
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+        <SwiperSlide><SliderItem/></SwiperSlide>
+      </Swiper>
+</div>
             </div>
         </>
     )

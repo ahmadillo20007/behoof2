@@ -17,3 +17,69 @@ color: #0F1113;
     color: #FF4D4D;
   }
 }
+.about1{
+  display: none;
+}
+@media  (min-width:'0') and (max-width:'428px'){
+  .about1{
+    display: block;
+  }
+  .about{
+    display: none;
+  }
+  .about__item{
+    width: 343px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #0F1113;
+margin-left: 10px;
+
+  }
+
+  .about1__text{
+    width: 343px;
+height: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #0F1113;
+margin-left: 16px;
+
+  }
+  
+  .about1__text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    margin-left: 16px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* Main/Primary */
+    
+    color: #FF4D4D;
+    
+  }
+  .about1__item1{
+    margin-left: 16px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #263141;
+margin-top: -20px;
+
+  }
+}  
