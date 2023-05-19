@@ -1,38 +1,28 @@
 import React from 'react'
-import './Social.scss'
-import btn1 from '../../img/btn1.png'
-import btn2 from '../../img/btn2.png'
-import i from '../../img/iphone.png'
-function Social() {
+import "./Social.scss"
+import Iphone1 from "../../img/Iphone1.png"
+import googleLogo from "../../img/google-logo.svg"
+import Iphone2 from "../../img/Iphone2.png"
+
+function Google() {
     return (
-        <div className='social'>
-            <div className="container">
-                <div className="socialWrapper">
-                    <div className="main">
-                        <div className="top">
-                            <h1 className='social__text'>
-                                <span>Экономьте</span> свое время
-                                и получайте <span>максимум</span>
-                                от ежедневных покупок
-                            </h1>
-                        </div>
-                        <div className="buttons">
-
-                            <img className='btn__img' src={btn1} alt="" />
-
-
-                            <img className='btn__img' src={btn2} alt="" />
-
-                        </div>
-                    </div>
-                    <div className="imgs">
-                        <img className='img1' src={i} alt="" />
-                        <img className='img2' src={i} alt="" />
-                    </div>
+        <div className='google container'>
+            <div className='google-wrapper'>
+                <div className='google-list'>
+                    <h2 className='google-title'>
+                        <span>Экономьте</span> свое время <br />
+                        и получайте <span>максимум</span> <br />
+                        от ежедневных покупок
+                    </h2>
+                    <img className='google-link' src={googleLogo} alt="" />
+                </div>
+                <div className='google-list2'>
+                    <img className='iphone-img' src={Iphone1} alt="" />
+                    <img className='iphone-img2' src={Iphone2} alt="" />
                 </div>
             </div>
         </div>
     )
 }
 
-export default Social
+export default Google

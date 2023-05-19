@@ -56,3 +56,17 @@ line-height: 20px;
 color: #FF4D4D;
 padding-left: 16px;
 }   
+.abzor1{
+    display: none;
+}
+@media (min-width:0) and (max-width:'428px'){
+    .abzor1{
+        display: block;
+    }
+    .abzor{
+        display: none;
+    }
+    .abzor1__text1{
+        margin-left: 16px;
+    }
+}

@@ -1,46 +1,93 @@
-.socialWrapper{
-    display: flex;
-   margin-top: 80px;
-    align-items: flex-start;
-    padding: 80px;
-   
-    width: 1440px;
-
-    background-color: #F6F7FA;
+.google-wrapper {
+    background: #F6F7FA;
     border-radius: 16px;
-}
-.social__text{
-    width: 819px;
-height: 192px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
-
-
-}
-.social__btn{
-    
-    border: none;
-    width: 182.49px;
-height: 61px;
-background: #0F1113;
-border-radius: 10px;
-
-
-}
-.buttons{
     display: flex;
-   margin-top: 20px;
-    width: 450px;
-    justify-content: space-between;
-    .btn__img{
-        object-fit: cover;
-        width: 204.85px;
-        height: 61px;
-        background: #0F1113;
-        border-radius: 10px;
+    margin-top: 80px;   
+    margin-bottom: 80px;
+}
+
+.google-list {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.google-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color:#0F1113;
+
+    margin-bottom: 40px;
+    span {
+        color:#FF4D4D;
+    }
+}
+
+.google-list {
+    img {
+        display: block;
+    }
+}
+
+.google-list2 {
+    margin-left: 140px;
+}
+
+.iphone-img {
+    margin-top: 80px;
+    z-index: 3;
+    position: relative;
+}
+
+.iphone-img2 {
+    position: relative;
+    right: 108px;
+}
+
+@media (min-width: "0") and (max-width: "428px") {
+    .google-wrapper {
+        background: #F6F7FA;
+        border-radius: 16px;
+        display: block;
+        margin-top: 80px;   
+        margin-bottom: 80px;
+    }    
+    .iphone-img {
+        display: none;
+    }
+    .iphone-img2 {
+        display: none;
+    }
+
+    .google-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        color:#0F1113;
     
+        margin-bottom: 12px;
+        span {
+            color:#FF4D4D;
+        }
+    }
+    .google-list {
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+    .google-link {
+        width: 319px;
+        height: 48.73px;
+        margin-bottom: 12.71px;
+    }
+    .google-list2 {
+        margin-left: 12px;
+        background-image: url(../../img/respIphone.jpg);
+        background-repeat: no-repeat;
+        width: 319px;
+        height: 26vh;
     }
 }

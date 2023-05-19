@@ -16,10 +16,10 @@ function Home() {
        <Hero />
       <Hero2 />
       <About />
-      {/* <Social/>
+      <Social/>
       <New />
      <Abzor/>
-     <Footer/> */}
+     <Footer/>
     </div>
   )
 }

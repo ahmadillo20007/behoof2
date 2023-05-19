@@ -58,3 +58,19 @@ height: 349px;
 
 background: #F2F5F9;
 }
+@media (min-width:0) and (max-width:'428px'){
+    .mian{
+        flex-wrap: wrap;
+        margin-top: 26px;
+    }
+    .footer{
+        overflow: hidden;
+        width: 428px;
+        margin-top: 26px;
+    }
+    .footer1{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+}
